@@ -62,15 +62,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* Style for the "Clear History" button */
-form[action="/delete"] input[type="submit"] {
-  background-color: #008CBA;
-}
-
-form[action="/delete"] input[type="submit"]:hover {
-  background-color: #006f99;
-}
-
 /* Style for the log out button */
 a button {
   background-color: #008CBA;

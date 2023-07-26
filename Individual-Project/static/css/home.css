@@ -5,30 +5,43 @@
   padding: 0;
 }
 
-/* Apply basic styling to the body */
+/* Apply blue-themed styling to the body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  padding: 20px;
   text-align: center;
+  background-color: #0078d4; /* Shade of blue */
+  color: #fff; /* White text color for contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* To ensure the content is centered vertically */
 }
 
 /* Style for the heading */
 h4 {
   margin-bottom: 20px;
+  font-size: 36px; /* Larger font size for the heading */
+  font-weight: bold;
 }
 
 /* Style for the buttons */
 a button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #fff; /* White background for buttons */
+  color: #0078d4; /* Blue text color for buttons */
   text-decoration: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  cursor: pointer;
+  padding: 20px 40px; /* Larger padding for buttons */
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 24px; /* Larger font size for the buttons */
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 a button:hover {
-  background-color: #45a049;
+  background-color: #e0e0e0; /* Lighter shade of gray on hover */
 }
+
+/* You can add more styles or modify existing ones as per your requirements */

@@ -5,72 +5,91 @@
   padding: 0;
 }
 
-/* Apply basic styling to the body */
+/* Apply blue-themed styling to the body */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   padding: 20px;
   text-align: center;
+  background-color: #0078d4; /* Shade of blue */
+  color: #000; /* Black text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* To ensure the content is centered vertically */
 }
 
-/* Style for the form container */
+/* Style for the heading */
+h4 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #000; /* Black text color */
+}
+
+/* Style for the form */
 form {
   max-width: 400px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
   padding: 20px;
-  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the form heading */
-h4 {
-  margin-bottom: 10px;
+/* Style for the labels */
+form label {
+  color: #0078d4; /* Shade of blue for labels */
+  font-weight: bold;
 }
 
-/* Style for the subheading */
-p {
-  margin-bottom: 20px;
-}
-
-/* Style for form labels */
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-/* Style for form input fields */
-input[type="email"],
-input[type="password"] {
+/* Style for the input fields */
+form input {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Style for the submit button */
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  cursor: pointer;
-  padding: 10px 20px;
+  margin: 10px 0;
   border: none;
   border-radius: 5px;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
+/* Style for the submit button */
+form input[type="submit"] {
+  background-color: #0078d4; /* Shade of blue for submit button */
+  color: #fff; /* White text color */
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Style for the signup button */
+form input[type="submit"]:hover {
+  background-color: #005ea0; /* Darker shade of blue on hover */
+}
+
+/* Style for the error message */
+p {
+  color: #000; /* Black text color for error message */
+  margin-top: 10px;
+}
+
+/* Style for the "Home" button */
 a button {
-  background-color: #008CBA;
-  color: white;
+  background-color: #0078d4; /* Shade of blue for "Home" button */
+  color: #fff; /* White text color */
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border: none;
   border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 a button:hover {
-  background-color: #006f99;
+  background-color: #005ea0; /* Darker shade of blue on hover */
 }
+
+/* You can add more styles or modify existing ones as per your requirements */
